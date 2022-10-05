@@ -1,0 +1,21 @@
+{
+  "name": "javascript_project_structure",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "express-session": "^1.17.3",
+    "mysql2": "^2.3.3",
+    "session": "^0.1.0",
+    "validator": "^13.7.0"
+  }
+}

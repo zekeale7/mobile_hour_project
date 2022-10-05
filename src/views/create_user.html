@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Create User</title>
+    <script src="create_user.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page">
+        <nav id="nav-component"></nav>
+        <form id="create-user-form">
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname">
+            <label for="role">Role:</label>
+            <select name="role" id="role">
+                    <option value="admin">admin</option>
+                    <option value="employee">Employee</option>
+                </select>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Create User">
+        </form>
+    </main>
+</body>
+
+</html>

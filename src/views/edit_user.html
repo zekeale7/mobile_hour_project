@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit User</title>
+    <script src="edit_user.js" defer></script>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main class="page">
+        <nav id="nav-component"></nav>
+        <form id="edit-user-form">
+            <label for="user_id">User ID:</label>
+            <input type="text" id="user_id" name="user_id" readonly>
+            <label for="firstname">First Name:</label>
+            <input type="text" id="firstname" name="firstname">
+            <label for="lastname">Last Name:</label>
+            <input type="text" id="lastname" name="lastname">
+            <label for="role">Role:</label>
+            <select name="role" id="role">
+                    <option value="admin">Admin</option>
+                    <option value="employee">Employee</option>
+                </select>
+            <label for="username">Username:</label>
+            <input type="text" name="username" id="username">
+            <label for="password">Password:</label>
+            <input type="password" name="password" id="password">
+            <input type="submit" value="Update User">
+        </form>
+    </main>
+</body>
+
+</html>

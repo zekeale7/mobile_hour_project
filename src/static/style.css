@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: 'Arial', Helvetica, sans-serif;
+}
+
+nav {
+    border-bottom: 1px black solid;
+    margin-bottom: 30px;
+}
+
+.tool-bar {
+    margin: 30px 0;
+}
+
+nav>a {
+    display: inline-block;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.page {
+    width: 80%;
+    margin: auto;
+    padding: 40px;
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+form {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 5px;
+}
+
+.data-list {
+    display: flex;
+    flex-direction: column;
+}
+
+.data-row {
+    display: flex;
+    gap: 20px;
+    border: 1px gray solid;
+    padding: 5px;
+}
+
+.data-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.product-card {
+    display: flex;
+    flex-direction: column;
+}
+
+.product-card>img {
+    width: 100%;
+}
+
+@media screen and (max-width: 800px) {
+    .page {
+        width: 100%;
+        box-sizing: border-box;
+        border: none;
+    }
+    .data-grid {
+        grid-template-columns: 1fr;
+        gap: 20px;
+    }
+}
